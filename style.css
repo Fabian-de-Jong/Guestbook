@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+* {
+    box-sizing: border-box; 
+}
+
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+}
+
+body {  
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+h1 { 
+    text-align: left;
+}
+.container {
+    max-width: 1200px;
+    display: block;
+    text-align: left;
+    margin: 10px auto;
+}    
+
+.guestbook {  
+    text-align: left;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.entries-container {
+    max-width: 1200px;
+    display: block;
+    text-align: left;
+    margin: 10px auto;
+}
+    
+.name {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.email {
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: #f4eeed;
+}
+
+textarea{
+    width: 100%;padding: 20px;
+}
+
+label, input[type=submit] {
+    font-size: 1.4rem;
+}
+
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    width: 100%;
+    padding: 20px;
+}
+
+.required input[type="text"], .required input[type="email"], .required textarea {
+    border: 2px solid red;  
+}
+
+.required label {
+    color: red;
+}
+
+.entry {
+    width: 100%;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+.entry-name {
+    font-size: 1.8rem;
+    font-style: italic;
+    float: left;
+}
+.entry-date, .entry-email {
+    float: right; 
+    font-size: 1.2rem; 
+    padding-right: 20px;
+}
+
+.entry-text {
+    display: block;
+    margin-top: 40px;
+    padding: 40px 0;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #000;
+}
+
+.text-message {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
